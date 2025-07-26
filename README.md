@@ -1,6 +1,7 @@
 # 👩‍🔬 Microbiology Lab – Teacher Info Database
 
-A simple web-based application to manage and display information about teachers in a university microbiology lab for Bioiformatics Database Development course. Built using **PHP**, **MySQL**, **HTML**, and **CSS**.
+A simple web-based application to manage and display information about teachers in a university microbiology lab. Built using **PHP**, **MySQL**, **HTML**, and **CSS**.
+> This was a group project for the Bioinformatics Database Development course.
 
 ---
 

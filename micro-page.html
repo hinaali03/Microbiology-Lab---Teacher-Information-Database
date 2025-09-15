@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microbiology Lab</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Nunito+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Updated Header Section -->
+    <header id="header">
+        <div class="header-content">
+            <img src="images/COMSATS-logo.jpg" alt="Department Logo" class="logo">
+            <div class="header-text">
+                <h1>Department of Biosciences</h1>
+                <h2>Microbiology Lab</h2>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#header">Home</a>
+        <a href="#about">About</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#search">Search</a>
+    </nav>
+
+    <!-- welcomeSection -->
+    <section class="welcome-section" id="header">
+        <div class="slideshow-container">
+            <img src="images/microlab1.jpg" alt="Background Image 1">
+            <img src="images/microlab3.jpg" alt="Background Image 2">
+            <img src="images/microlab2.jpg" alt="Background Image 3">
+        </div>
+        <div class="welcome-content">
+            <h2>Welcome to the Microbiology Lab</h2>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <h2>About</h2>
+        <div class="about">
+            <div class="photo">
+                <img src="images/about.jpg" alt="About Photo">
+            </div>
+            <div class="text">
+                <p>The Microbiology Lab of the Department of Biosciences is equipped with cutting-edge technology and
+                    provides hands-on learning for students and researchers. The lab focuses on various areas of
+                    microbiology, from microbial physiology to molecular genetics. Our faculty is dedicated to nurturing
+                    future scientists through comprehensive research and practical experience.</p>
+            </div>
+    </section>
+
+
+
+    <section class="Faculty-section" id="faculty">
+        <h2>Faculty</h2>
+        <p>The Microbiology Lab is guided by a diverse faculty with expertise in multiple fields. Our focus on both
+            research and teaching provides students with hands-on learning experiences and supports graduate and
+            undergraduate projects. Emphasizing interdisciplinary collaboration, we explore topics such as microbial
+            resistance, biotechnology, and the role of microbes in human health, preparing students for leadership in
+            the field. Our faculty is dedicated to nurturing future scientists through research and practical
+            experience.
+        </p>
+
+
+        <!-- Faculty Photos -->
+        <div class="faculty-photos">
+            <img src="images/faculty1.jpg" alt="Faculty 1" class="faculty-photo">
+            <img src="images/faculty2.jpg" alt="Faculty 2" class="faculty-photo">
+            <img src="images/faculty3.jpg" alt="Faculty 3" class="faculty-photo">
+            <img src="images/faculty4.jpg" alt="Faculty 4" class="faculty-photo">
+            <img src="images/faculty5.jpg" alt="Faculty 5" class="faculty-photo">
+        </div>
+    </section>
+
+    <!-- Search Section -->
+
+    <section class="search-section" id="search">
+        <h2>Search</h2>
+        <div class="search-box" id="searchBox">
+            <input type="text" id="searchInput" placeholder="Search for information...">
+        </div>
+        <div class="results" id="results">
+            <button onclick="fetchResults('Professors')">Professors</button>
+            <button onclick="fetchResults('Publications')">Publications</button>
+            <button onclick="fetchResults('FYP')">Research Information</button>
+            <button onclick="fetchResults('all')">All Information</button>
+        </div>
+
+        <div id="searchResults">
+            <!-- Data from search.php will be inserted here -->
+        </div>
+    </section>
+
+
+    <!-- Back to Top Button -->
+    <a href="#header" class="back-to-top">↑</a>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
